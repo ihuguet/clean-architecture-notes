@@ -1,0 +1,3 @@
+The main component is one of the most low level components (or the most one). Nothing should depend on it, and its function is to initialize all factories and global elements, inject dependencies and other initialization stuff before passing the control to higher level parts.
+
+Regarding [[Decoupling#Plugin architecture]], `main` is just another plugin. Actually, having different `main` implementations is what allows to reuse the high level components, orchestrating them to use different low level components depending on the use case (i.e to different UIs or DDBBs, to have test and production variations of the product, etc).
