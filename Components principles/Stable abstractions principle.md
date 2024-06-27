@@ -12,4 +12,4 @@ Ideally, stable components has no instability (I = 0) and high abstraction (A = 
   Note that there are elements that can be here without being a problem if they don't change, like the `String` class.
   - Zone of uselessness (A ~= 1, I ~= 1): very abstract but nobody depends on it. Useless.
 
-TODO: add image of the I/A graph
+![[instability-abstraction-graph.png]]

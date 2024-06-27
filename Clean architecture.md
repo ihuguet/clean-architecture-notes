@@ -40,7 +40,7 @@ There are at least 4 layers that need to exist in a software architecture. They 
 
 *Note that this is not a new rule, it was already implied by the [[Stable dependencies principle]] and [[Policies#policies and level]]*
 
-TODO: insert image of the clean architecture circles
+![[clean-architecture-layers.png]]
 
 Elements in internal circles must know nothing about outer circles. They mustn't use any name (variables, functions, classes...) or data structures from them.
 

@@ -14,7 +14,7 @@ These principles are in tension:
 
 The team needs to find the equilibrium point depending on the characteristics of the project. Normally this point also moves when the development matures: at first it is more important to facilitate the maintenaince and development (CCP) even if it harms the ease of reuse (REP), but when the project has lots of users you need to shift towards ease of reuse (REP).
 
-TODO: add image of the graph showing the tension
+![[cohesion-principles-tension.png]]
 
 Coupling of components
 --------------------
