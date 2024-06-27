@@ -17,7 +17,7 @@ Independent development
 -----------
 The fallacy about decoupling above shows that services cannot be actually developed independently. Services that are coupled by the data they share of by behavior will need to change in a coordinated manner.
 
-Also, there are plenty of examples of big business systems that operate as monoliths based on [[packages]] that are developed independently. Services are not the only option for systems that scale at their development.
+Also, there are plenty of examples of big business systems that operate as monoliths based on [[component]]s that are developed independently. Services are not the only option for systems that scale at their development.
 
 Conclusion
 ----------

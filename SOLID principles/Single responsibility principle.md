@@ -2,7 +2,7 @@
 
 Or, as explained by Robert C. Martin:
 
-> A [[module]] must be resonsible of one, and only one, actor [^1].
+> A [[module]] must be responsible of one, and only one, actor [^1].
 
 > [!warning]
 > This is the less understood [[SOLID]] principle, probably because the name not being precise. It doesn't mean that a module has to do a single thing. That is a different but similar principle that affects only to functions (a function must do one and only one thing).

@@ -8,7 +8,7 @@ For example, inside a single use case:
 - **[[Application rules]]**: business rules more tied to our specific application. For example, a form validation.
 - The data base.
 
-All these elements changes at different times for different reasons. They belong to different horizontal layers that has to be decoupled from each other, even if all them are supporting to the same use case.
+All these elements changes at different times for different reasons. They belong to different horizontal layers that have to be decoupled from each other, even if all them are supporting to the same use case.
 
 Decoupling by use case
 ----------

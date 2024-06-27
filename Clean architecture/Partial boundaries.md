@@ -4,13 +4,13 @@ Although in the Agile community this is often considered as breaking YAGNI (You 
 
 Skipping the last step
 -----------
-We do everything needed to create components that can be compiled and implemented independently but we finally keep them together in a single [[package]]. We have the reciprocal interfaces, the data structures to pass the data, etc. but we keep them within a single [[package]].
+We do everything needed to create components that can be compiled and implemented independently but we finally keep them together in a single component. We have the reciprocal interfaces, the data structures to pass the data, etc. but we keep them within a single component.
 
 The effort to design and develop is the same but you don't have to release separately, administering the version numbers, integrating different versions, etc.
 
 One dimension boundary
 --------------
-A full architectural boundary uses reciprocal boundaries to maintain the isolation in both directions. However, this is costly, and sometimes a one direction boundary, allowing to have a dependency inversion, is enough for the moment and establish a good point for a future full architectural boundary. However, it has the risk of creating backchannels.
+A full architectural boundary uses reciprocal interfaces to maintain the isolation in both directions. However, this is costly, and sometimes a one direction boundary, allowing to have a dependency inversion, is enough for the moment and establish a good point for a future full architectural boundary. However, it has the risk of creating backchannels.
 
 Facades
 -----

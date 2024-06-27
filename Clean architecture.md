@@ -1,6 +1,6 @@
 What is software architecture?
 ----------------------
-It is the form that we give the the software system, deciding how to divide it in components, how they are organized and how the communicate with each others.
+It is the form that we give to the software system, deciding how to divide it in components, how they are organized and how they communicate with each others.
 
 It must support these aspects of the system life cycle:
 - [[Development]]
@@ -20,7 +20,7 @@ Different proposals about what a good architecture should look like have been de
 
 Clean architecture
 ----------
-Different proposals about what a good architecture should look like have been developed, such as hexagonal architecture (aka ports and adapters architecture, DCI or BCE. Many of them share various common aspects and similar designs that we can summarize in what we call *clean architecture*.
+Different proposals about what a good architecture should look like have been developed, such as hexagonal architecture (aka ports and adapters architecture), DCI or BCE. Many of them share various common aspects and similar designs that we can summarize in what we call *clean architecture*.
 
 They have some differences in details but all them are similar and have the same goal of separation of concerns, and all them achieve it dividing the software in layers. All them also separate business rules from user and system's interfaces.
 
@@ -38,7 +38,7 @@ There are at least 4 layers that need to exist in a software architecture. They 
 
 > Code dependencies must only point towards the center of the circle, towards the high level policies.
 
-*Note that this is not a new rule, it was already implied by the [[stable dependencies principle]] and [[Policies#policies and level]]*
+*Note that this is not a new rule, it was already implied by the [[Stable dependencies principle]] and [[Policies#policies and level]]*
 
 TODO: insert image of the clean architecture circles
 
@@ -59,6 +59,9 @@ However, it must be noted that architectural boundaries are costly, they take a 
 > [!note]
 > You may decide to have more than 4 layers, but keep always in mind the dependency rule, with the dependencies pointing towards the center.
 
+Warning
+-----------
+Software architecture, specially if over abused, adds complexity to the software. It is a trade off that exchange some complexity for another complexity more manageable. Avoid [[overengineering]]!!!
 Additional considerations
 -----------
 There are some quite singular components that deserve some additional explanations:

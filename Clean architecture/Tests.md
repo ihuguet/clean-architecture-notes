@@ -3,3 +3,5 @@ Are the tests part of the system? Yes. They are very detailed and concrete, so t
 They must be designed to avoid the _fragile tests problem_. For example, testing business rules with tests that navigates the GUI is a terrible idea: a small change in the GUI will break thousands of tests. A special API with superpowers can be added to internal components to be used by tests.
 
 Also, avoid structural coupling. The tests should depend as less as possible of the structure of the application. Otherwise, small changes in the application makes that lots of tests has to change too.
+
+A good design patter that is usually useful for testing, specially if there is any element that is not actually possible to test, is the [[humble objects]] pattern.
